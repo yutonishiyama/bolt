@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+body{
+  height: 100%;
+  background-color: #f2f2f2;
+  color: #506a85;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+.header{
+  z-index: 10;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  border:1px solid #e7e7e7;
+  background-color: #fff;
+}
+
+.header__inner{
+  width: 1100px;
+}
+
+.bolt__logo{
+  font-size: 60px;
+  color: #777;
+  margin-left:320px;
+  float: left;
+}
+
+.btn__contact{
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  outline: none;
+  float: right;
+  border:none;
+  margin: 10px 0;
+}
+
+.claerfix{
+  content: "";
+  display: block;
+  clear:both;
+}
+
+.bolt-theme__inner{
+  padding-top: 91px;
+
+}
+
+.bolt-theme__box{
+  padding: 250px 0 250px;
+  color: #c0c0c0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height:1.1;
+  text-align: center;
+}
+
+.theme{
+  margin-bottom: 20px;
+  color: #74cfae;
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: 3px;
+}
+
+.font-raleway{
+  font-family: "Raleway";
+}
+
+.sub-theme{
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.what{
+  padding-top: 50px;
+  background-color: #74cfae;
+}
+
+.what__inner{
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.what__box{
+  margin: 0 -15px;
+  font-size: 0;
+}
+
+.phone__margin{
+  margin: 0 -15px;
+  display: inline-block;
+  width: 50%;
+}
+
+.what__phone{
+  text-align: center;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.what__title{
+  width: 50%;
+  display: inline-block;
+
+}
+
+.what__body{
+  color: #fff;
+  font-weight: 300;
+  font-size:20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.we__can{
+  margin-bottom: 35px;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.we__can__p{
+  font-size: 24px;
+}
+
+.work{
+  margin: 0 auto;
+  padding: 60px 0 70px;
+}
+
+.our__work{
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.work__pic{
+  padding-bottom: 90px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.top__pics{
+  padding-bottom: 80px;
+}
+
+.pic__li{
+  margin-right: 100px;
+  display: inline-block;
+}
+
+.pic__li:last-child{
+  margin-right: 0;
+}
+
+.pic__a{
+  opacity: .7;
+  transition: .3s;
+}
+
+.pic__a:hover{
+  opacity: 1;
+}
+
+.mail__form{
+  width: 100%;
+  text-align: center;
+}
+
+.mail__p__txt{
+  width: 67%;
+  display: inline-block;
+}
+
+.mail__p{
+  color: #333;
+  font-weight: 200;
+  font-size: 21px;
+  line-height:1.4;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.email{
+  display: inline-block;
+  width: 17%;
+}
+
+.email__btn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 19px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  color: #fff;
+  text-align: center;
+}
+
+.skill{
+  background-color: #4e4e4e;
+  padding: 70px 0 100px;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.four__skill{
+  text-align: center;
+}
+
+.our__skill{
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.skill__box{
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.skills{
+  display: inline-block;
+  width: 20%;
+}
+
+.socials{
+  display: inline-block;
+  width: 20%;
+}
+
+.social{
+  width: 100%;
+  padding: 200px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.social__list{
+  width: 185px;
+  padding:30px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.social__list:hover{
+  background-color: #fff;
+  transition: all .3s ease;
+}
+
+
+.social__icon{
+  font-size: 50px;
+  color: #74cfae;
+}
+
+.footer{
+  background-color: #74cfae;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0 25px;
+}
+
+.footer__p{
+  color: #fff;
+  text-align: right;
+}
+
+.heart{
+  color: #fff;
+}
