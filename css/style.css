@@ -202,6 +202,11 @@ img{
   background-color: #74cfae;
   color: #fff;
   text-align: center;
+  transition: .3s;
+}
+
+.email__btn:hover{
+  color: #333;
 }
 
 .skill{
