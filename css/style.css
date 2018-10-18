@@ -38,6 +38,12 @@ body{
   float: right;
   border:none;
   margin: 10px 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn__contact:hover{
+  color: #333;
 }
 
 .claerfix{
