@@ -1,14 +1,26 @@
 @charset "utf-8";
 
-.wrapper{
-  background-color: #f2f2f2;
-  font-family: "Raleway";
+a{
+  display: inline-block;
 }
 
-.claerfix{
+img{
+  vertical-align: top;
+}
+
+.clearfix:after{
   content: "";
   display: block;
   clear:both;
+}
+
+.package{
+  padding-top: 91px;
+}
+
+.wrapper{
+  background-color: #f2f2f2;
+  font-family: "Raleway";
 }
 
 .header{
@@ -39,15 +51,12 @@
 
 .btn__contact{
   font-size: 12px;
-  padding: 14px 12px;
+  padding: 15px;
   color: #fff;
   background-color: #74cfae;
-  outline: none;
   float: right;
-  border:none;
-  margin: 10px 0;
-  cursor: pointer;
   transition: .3s;
+  text-decoration: none;
 }
 
 .btn__contact:hover{
@@ -82,10 +91,14 @@
   background-color: #74cfae;
 }
 
+.what__inner{
+  font-size: 0;
+}
+
 .phone__margin{
-  margin: 0 -15px;
   display: inline-block;
   width: 50%;
+  text-align: center;
 }
 
 .what__phone{
@@ -93,13 +106,13 @@
 }
 
 .what__phone > img{
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .what__title{
   width: 50%;
   display: inline-block;
-
+  vertical-align: top;
 }
 
 .what__body{
@@ -135,31 +148,37 @@
   padding-bottom: 90px;
   text-align: center;
   box-sizing: border-box;
+  font-
 }
 
 .pics > li{
   margin-right: 100px;
+  margin-top: 80px;
   display:block;
   float: left;
 }
 
-.pics > li:nth-child(3n){
-  margin-right: 0;
-  margin-bottom: 80px;
+.pics > li:nth-child(-n+3){
+  margin-top:0;
 }
 
-.pics > li > a{
+.pics > li:nth-child(3n){
+  margin-right: 0;
+}
+
+.picture{
   opacity: .7;
   transition: .3s;
 }
 
-.pics > li > a:hover{
+.picture:hover{
   opacity: 1;
 }
 
 .mail__form{
   width: 100%;
   text-align: center;
+  font-size: 0;
 }
 
 .mail__p__txt{
@@ -182,15 +201,13 @@
 }
 
 .email__btn{
-  cursor: pointer;
-  outline: none;
-  border: none;
   font-size: 19px;
   padding: 14px 20px;
   background-color: #74cfae;
   color: #fff;
   text-align: center;
   transition: .3s;
+  text-decoration: none;
 }
 
 .email__btn:hover{
@@ -219,11 +236,12 @@
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  font-size: 0;
 }
 
 .skill__box > li{
   display: inline-block;
-  width: 20%;
+  width: 25%;
 }
 
 .skill__circle{
@@ -248,7 +266,7 @@
 
 .social__list{
   width: 185px;
-  margin:30px;
+  padding:30px;
   display: inline-block;
   box-sizing: border-box;
 }
