@@ -2,6 +2,7 @@
 
 a{
   display: inline-block;
+  text-decoration: none;
 }
 
 img{
@@ -14,15 +15,12 @@ img{
   clear:both;
 }
 
-.package{
-  padding-top: 91px;
-}
-
 .wrapper{
   background-color: #f2f2f2;
   font-family: "Raleway";
 }
 
+/*header関連*/
 .header{
   z-index: 10;
   position: fixed;
@@ -31,15 +29,25 @@ img{
   width: 100%;
   border:1px solid #e7e7e7;
   background-color: #fff;
+  padding: 15px 0;
 }
 
-.inner{
+
+.package{
+  padding-top: 91px;
+}
+
+@media screen and
+(min-width: 1200px){
+  .inner{
   width: 1100px;
   margin: 0 auto;
 }
+}
 
+
+/*bolt関連*/
 .top__bolt{
-  padding: 15px 0;
   vertical-align: middle;
 }
 
@@ -49,6 +57,8 @@ img{
   float: left;
 }
 
+@media screen and
+(min-width: 767px){
 .btn__contact{
   font-size: 12px;
   padding: 15px;
@@ -56,15 +66,55 @@ img{
   background-color: #74cfae;
   float: right;
   transition: .3s;
-  text-decoration: none;
+}
+}
+
+@media screen and
+(max-width: 766px){
+.btn__contact{
+  display: none;
+}
+
+.is-active{
+  display: block;
+  background-color: #74cfae;
+}
+}
+
+@media screen and
+(max-width: 766px){
+.sp__btn{
+  float: right;
+  padding: 10px;
+  border-radius: 4px;
+  border:1px solid #ddd;
+}
+
+.sp__menu{
+  width: 20px;
+  height: 2px;
+  background-color: #ccc;
+}
 }
 
 .btn__contact:hover{
   color: #333;
 }
+@media screen and
+(min-width: 767px){
+.bolt-theme{
+  padding: 250px 0 250px;
+}
+}
+
+@media screen and
+(max-width: 766px){
+.bolt-theme{
+  padding: 160px 0 130px;
+}
+}
 
 .bolt-theme__box{
-  padding: 250px 0 250px;
   color: #c0c0c0;
   font-weight: 300;
   font-size: 30px;
@@ -81,11 +131,23 @@ img{
   letter-spacing: 3px;
 }
 
+@media screen and
+(max-width: 766px){
+.theme{
+  margin-bottom: 20px;
+  color: #74cfae;
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+}
+
 .sub-theme{
   font-size: 30px;
   color: #c0c0c0;
 }
 
+/*what関連*/
 .what{
   padding-top: 50px;
   background-color: #74cfae;
@@ -95,10 +157,21 @@ img{
   font-size: 0;
 }
 
-.phone__margin{
+@media screen and
+(min-width: 1200px){
+  .phone__margin{
   display: inline-block;
   width: 50%;
   text-align: center;
+}
+}
+
+@media screen and
+(max-width: 1199px){
+  .phone__margin{
+  text-align: center;
+  margin-bottom: 20px;
+}
 }
 
 .what__phone{
@@ -109,10 +182,20 @@ img{
   vertical-align: top;
 }
 
+@media screen and(min-width: 1200px){
 .what__title{
   width: 50%;
   display: inline-block;
   vertical-align: top;
+}
+}
+
+@media screen and
+(max-width: 1199px){
+  .what__title{
+  text-align: center;
+  padding-bottom: 25px;
+}
 }
 
 .what__body{
@@ -129,10 +212,22 @@ img{
   line-height: 1.1;
 }
 
+@media screen and
+(min-width: 767px){
 .we__can__p{
   font-size: 24px;
 }
+}
 
+@media screen and
+(max-width: 766px){
+.we__can__p{
+  font-size: 24px;
+  margin:0 15px 0;
+}
+}
+
+/*our_latest_work関連*/
 .work{
   margin: 0 auto;
   padding: 60px 0 70px;
@@ -145,13 +240,14 @@ img{
 }
 
 .work__pic{
-  padding-bottom: 90px;
+  margin-bottom: 90px;
   text-align: center;
   box-sizing: border-box;
-  font-
 }
 
-.pics > li{
+@media screen and
+(min-width: 1200px){
+  .pics > li{
   margin-right: 100px;
   margin-top: 80px;
   display:block;
@@ -164,6 +260,18 @@ img{
 
 .pics > li:nth-child(3n){
   margin-right: 0;
+}
+}
+
+@media screen and
+(max-width: 1199px){
+.pics > li{
+  display: block;
+}
+
+.pics > li:nth-child(3n){
+  margin-bottom: 80px;
+}
 }
 
 .picture{
@@ -180,12 +288,22 @@ img{
   text-align: center;
   font-size: 0;
 }
-
+@media screen and
+(min-width: 1200px){
 .mail__p__txt{
   width: 67%;
   display: inline-block;
 }
+}
+@media screen and
+(max-width: 1199px){
+  .mail__p__txt{
+    margin-bottom: 40px;
+}
+}
 
+@media screen and
+(min-width: 767px){
 .mail__p{
   color: #333;
   font-weight: 200;
@@ -194,10 +312,35 @@ img{
   letter-spacing: 1px;
   text-align: center;
 }
+}
 
+@media screen and
+(max-width: 766px){
+.mail__p{
+  color: #333;
+  font-weight: 200;
+  font-size: 21px;
+  line-height:1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  margin:0 15px 0;
+}
+}
+
+@media screen and
+(min-width: 767px){
 .email{
   display: inline-block;
   width: 17%;
+}
+}
+
+@media screen and
+(max-width: 766px){
+.email{
+  display: inline-block;
+  width: 35%
+}
 }
 
 .email__btn{
@@ -207,13 +350,13 @@ img{
   color: #fff;
   text-align: center;
   transition: .3s;
-  text-decoration: none;
 }
 
 .email__btn:hover{
   color: #333;
 }
 
+/*skill関連*/
 .skill{
   background-color: #4e4e4e;
   padding: 70px 0 100px;
@@ -239,36 +382,81 @@ img{
   font-size: 0;
 }
 
+@media screen and
+(min-width: 1200px){
 .skill__box > li{
   display: inline-block;
   width: 25%;
 }
+}
+
+@media screen and
+(max-width: 1199px){
+.skill__box > li{
+  margin-bottom: 88px;
+}
+
+.skill__box > li:last-child{
+  margin-bottom: 0;
+}
+}
 
 .skill__circle{
   margin-top: 15px;
+  font-size: 16px;
 }
 
+/*social関連*/
 .some__social{
   vertical-align: center;
 }
 
+@media screen and
+(min-width: 767px){
 .some__social > li{
   display: inline-block;
   width: 20%;
 }
+}
 
+@media screen and
+(min-width: 767px){
 .social{
   width: 100%;
   padding: 200px 0;
   text-align: center;
   box-sizing: border-box;
 }
+}
 
+@media screen and
+(max-width: 766px){
+.social{
+  width: 100%;
+  padding:50px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+}
+
+@media screen and
+(min-width: 767px){
 .social__list{
   width: 185px;
   padding:30px;
   display: inline-block;
   box-sizing: border-box;
+}
+}
+
+@media screen and
+(max-width: 766px){
+.social__list{
+  width: 100%;
+  margin:30px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
 }
 
 .social__list:hover{
@@ -282,6 +470,7 @@ img{
   color: #74cfae;
 }
 
+/*footer関連*/
 .footer{
   background-color: #74cfae;
   width: 100%;
