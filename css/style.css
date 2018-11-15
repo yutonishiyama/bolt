@@ -39,9 +39,9 @@ img{
 
 @media screen and (min-width: 1200px){
   .inner{
-  width: 1100px;
-  margin: 0 auto;
-}
+    width: 1100px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1199px){
@@ -63,53 +63,53 @@ img{
 }
 
 @media screen and (min-width: 767px){
-.btn__contact{
-  font-size: 12px;
-  padding: 15px;
-  color: #fff;
-  background-color: #74cfae;
-  float: right;
-  transition: .3s;
-}
-}
-
-@media screen and (max-width: 766px){
-.btn__contact{
-  display: none;
-}
-
-.is-active{
-  display: block;
-  background-color: #74cfae;
-  position: absolute;
-  top: 91px;
-  left: 0;
-  color: white;
-  width: 100%;
-  padding:10px 15px;
-}
+  .btn__contact{
+    font-size: 12px;
+    padding: 15px;
+    color: #fff;
+    background-color: #74cfae;
+    float: right;
+    transition: .3s;
+  }
 }
 
 @media screen and (max-width: 766px){
-.sp__btn{
-  float: right;
-  padding: 10px;
-  border-radius: 4px;
-  border:1px solid #ddd;
+  .btn__contact{
+    display: none;
+  }
+
+  .is-active{
+    display: block;
+    background-color: #74cfae;
+    position: absolute;
+    top: 91px;
+    left: 0;
+    color: white;
+    width: 100%;
+    padding:10px 15px;
+  }
 }
 
-.sp__menu{
-  display: block;
-  width: 22px;
-  height: 2px;
-  background-color: #ccc;
-  border-radius: 1px;
-  margin-top: 4px;
-}
+@media screen and (max-width: 766px){
+  .sp__btn{
+    float: right;
+    padding: 10px;
+    border-radius: 4px;
+    border:1px solid #ddd;
+  }
 
-.sp__menu:first-child{
-  margin-top: 0;
-}
+  .sp__menu{
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #ccc;
+    border-radius: 1px;
+    margin-top: 4px;
+  }
+
+  .sp__menu:first-child{
+    margin-top: 0;
+  }
 }
 
 .btn__contact:hover{
@@ -117,15 +117,15 @@ img{
 }
 
 @media screen and (min-width: 767px){
-.bolt-theme{
-  padding: 250px 0 250px;
-}
+  .bolt-theme{
+    padding: 250px 0 250px;
+  }
 }
 
 @media screen and (max-width: 766px){
-.bolt-theme{
-  padding: 160px 0 130px;
-}
+  .bolt-theme{
+    padding: 160px 0 130px;
+  }
 }
 
 .bolt-theme__box{
@@ -145,13 +145,13 @@ img{
 }
 
 @media screen and (max-width: 766px){
-.theme{
-  margin-bottom: 20px;
-  color: #74cfae;
-  font-weight: 700;
-  font-size: 80px;
-  letter-spacing: 3px;
-}
+  .theme{
+    margin-bottom: 20px;
+    color: #74cfae;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 3px;
+  }
 }
 
 .sub-theme{
@@ -183,17 +183,17 @@ img{
 
 @media screen and (min-width: 1200px){
   .phone__margin{
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-}
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1199px){
   .phone__margin{
-  text-align: center;
-  margin-bottom: 20px;
-}
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 .what__phone{
@@ -205,30 +205,26 @@ img{
 }
 
 @media screen and (min-width: 1200px){
-.what__title{
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  color: #fff;
-  font-weight: 300;
-  font-size:20px;
-  line-height: 28px;
-  text-align: center;
-}
+  .what__title{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 28px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1199px){
   .what__title{
-  text-align: center;
-  color: #fff;
-  font-weight: 300;
-  font-size:20px;
-  line-height: 28px;
-}
-}
-
-.what__body{
-
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 28px;
+  }
 }
 
 .we__can{
@@ -238,16 +234,16 @@ img{
 }
 
 @media screen and (min-width: 767px){
-.we__can__p{
-  font-size: 20px;
-}
+  .we__can__p{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 766px){
-.we__can__p{
-  font-size: 24px;
-  margin:0 15px 0;
-}
+  .we__can__p{
+    font-size: 24px;
+    margin:0 15px 0;
+  }
 }
 
 /*our_latest_work関連*/
@@ -286,13 +282,18 @@ img{
 }
 
 @media screen and (max-width: 1199px){
-.pics > li{
-  display: block;
+  .pics > li{
+    display: block;
 }
 
-.pics > li:nth-child(3n){
-  margin-bottom: 80px;
-}
+  .pics > li:nth-child(3n){
+    margin-bottom: 80px;
+  }
+
+  pics > li:last-child{
+    margin-bottom: 0;
+  }
+
 }
 
 .picture{
@@ -309,53 +310,55 @@ img{
   text-align: center;
   font-size: 0;
 }
+
 @media screen and (min-width: 1200px){
-.mail__p__txt{
-  width: 67%;
-  display: inline-block;
+  .mail__p__txt{
+    width: 67%;
+    display: inline-block;
+  }
 }
-}
+
 @media screen and (max-width: 1199px){
   .mail__p__txt{
     margin-bottom: 40px;
-}
-}
-
-@media screen and (min-width: 767px){
-.mail__p{
-  color: #333;
-  font-weight: 200;
-  font-size: 21px;
-  line-height:1.4;
-  letter-spacing: 1px;
-  text-align: center;
-}
-}
-
-@media screen and (max-width: 766px){
-.mail__p{
-  color: #333;
-  font-weight: 200;
-  font-size: 21px;
-  line-height:1.4;
-  letter-spacing: 1px;
-  text-align: center;
-  margin:0 15px 0;
-}
+  }
 }
 
 @media screen and (min-width: 767px){
-.email{
-  display: inline-block;
-  width: 17%;
-}
+  .mail__p{
+    color: #333;
+    font-weight: 200;
+    font-size: 21px;
+    line-height:1.4;
+    letter-spacing: 1px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 766px){
-.email{
-  display: inline-block;
-  width: 35%
+  .mail__p{
+    color: #333;
+    font-weight: 200;
+    font-size: 21px;
+    line-height:1.4;
+    letter-spacing: 1px;
+    text-align: center;
+    margin:0 15px 0;
+  }
 }
+
+@media screen and (min-width: 767px){
+  .email{
+    display: inline-block;
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .email{
+    display: inline-block;
+    width: 35%
+  }
 }
 
 .email__btn{
@@ -398,20 +401,20 @@ img{
 }
 
 @media screen and (min-width: 1200px){
-.skill__box > li{
-  display: inline-block;
-  width: 25%;
-}
+  .skill__box > li{
+    display: inline-block;
+    width: 25%;
+  }
 }
 
 @media screen and (max-width: 1199px){
-.skill__box > li{
-  margin-bottom: 88px;
-}
+  .skill__box > li{
+    margin-bottom: 88px;
+  }
 
-.skill__box > li:last-child{
-  margin-bottom: 0;
-}
+  .skill__box > li:last-child{
+    margin-bottom: 0;
+  }
 }
 
 .skill__circle{
@@ -425,46 +428,46 @@ img{
 }
 
 @media screen and (min-width: 767px){
-.some__social > li{
-  display: inline-block;
-  width: 20%;
-}
-}
-
-@media screen and (min-width: 767px){
-.social{
-  width: 100%;
-  padding: 200px 0;
-  text-align: center;
-  box-sizing: border-box;
-}
-}
-
-@media screen and (max-width: 766px){
-.social{
-  width: 100%;
-  padding:50px 15px;
-  text-align: center;
-  box-sizing: border-box;
-}
+  .some__social > li{
+    display: inline-block;
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 767px){
-.social__list{
-  width: 185px;
-  padding:30px;
-  display: inline-block;
-  box-sizing: border-box;
-}
+  .social{
+    width: 100%;
+    padding: 200px 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 766px){
-.social__list{
-  width: 100%;
-  margin:30px 0;
-  display: inline-block;
-  box-sizing: border-box;
+  .social{
+    width: 100%;
+    padding:50px 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
+
+@media screen and (min-width: 767px){
+  .social__list{
+    width: 185px;
+    padding:30px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .social__list{
+    width: 100%;
+    margin:30px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
 }
 
 .social__list:hover{
